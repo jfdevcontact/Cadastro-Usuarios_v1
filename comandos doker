@@ -1,0 +1,13 @@
+COAMANDO DOCKER (PRA MIM NÃO ESQUECER)
+
+docker-compose up -d
+
+docker-compose exec mysql bash
+
+mysql -uroot -p cadastro
+
+
+projeto cadastro
+
+
+create table cadastro (id varchar(255), usuario varchar(80), email varchar(80), senha varchar(80), primary key (id));
